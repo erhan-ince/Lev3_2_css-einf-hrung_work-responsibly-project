@@ -1,0 +1,188 @@
+/* font:roboto
+
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    margin: 0;
+    background: #ccc;
+
+}
+header{
+    display: inline-block;
+    list-style: none;
+    margin-left: 5%;
+    height: 15vh;
+}    
+header a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #659d89;
+    padding-right: 50px;
+}
+article:nth-of-type(1){
+    margin-left: 5%;
+    height: 15vh;
+}
+article:nth-of-type(1) h1{
+    font-family: 'Roboto', sans-serif;
+    color: #659d89;
+}
+article:nth-of-type(1) p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+div:nth-of-type(1){
+    display: block;
+    text-align: right;
+    margin-right: 10%;
+}
+div:nth-of-type(1) a{
+    height: 5vh;
+    display: block;
+    text-align: right;
+    margin-right: 10%;
+    padding-right: 5%;
+    text-decoration: none;
+    color: #666;
+}
+div:nth-of-type(2) a{
+    height: 10vh;
+    display: block;
+    text-align: left;
+    margin-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    color: #666;
+}
+article:nth-of-type(2){
+    margin-left: 5%;
+    height: 15vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+section{
+    position: relative;
+    height: 40vh;
+    
+}
+section div img:nth-child(1){
+    position: absolute;
+    left: 10%;
+    height: 15vh;
+    width: 15vw;
+}
+section div img:nth-child(2){
+    position: absolute;
+    left: 30%;
+    height: 15vh;
+    width: 15vw;
+}
+section div img:nth-child(3){
+    position: absolute;
+    left: 50%;
+    height: 15vh;
+    width: 15vw;
+}
+section div img:nth-child(4){
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    height: 15vh;
+    width: 15vw;
+}
+section div img:nth-child(5){
+    bottom: 5%;
+    position: absolute;
+    left: 30%;
+    height: 15vh;
+    width: 15vw;
+}
+section div img:nth-child(6){
+    bottom: 5%;
+    position: absolute;
+    left: 50%;
+    height: 15vh;
+    width: 15vw;
+}
+section:nth-of-type(2){
+    /* margin-left: 5%; */
+    position: relative;
+    height: 40vh;
+}
+section:nth-of-type(2) h1{
+    margin-left: 5%;    
+}
+section:nth-of-type(2) div img{
+    margin-left: 1%;
+    height: 25vh;
+    width: 30vw;
+}
+section:nth-of-type(2) div p{
+    text-align: center;
+    margin-left: 1%;
+    height: 25vh;
+    width: 20vw;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+section:nth-of-type(3){
+    margin-left: 5%;
+    position: relative;
+    height: 40vh;
+}
+section:nth-of-type(3) div img{
+    position: absolute;
+    margin-left: 10%;
+    height: 30vh;
+    width: 30vw;
+}
+section:nth-of-type(3) div p{
+    text-align: center;
+    margin-left: 10%;
+    height: 25vh;
+    width: 20vw;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+section:nth-of-type(4){
+    margin-left: 5%;
+    position: relative;
+    height: 40vh;
+}
+section:nth-of-type(4) div img{
+    margin-left: 1%%;
+    height: 30vh;
+    width: 30vw;
+}
+section:nth-of-type(4) div p{
+    text-align: center;
+    margin-left: 1%;
+    height: 25vh;
+    width: 20vw;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+section:nth-of-type(5){
+    /* margin-left: 5%; */
+    position: relative;
+    height: 40vh;
+}
+section:nth-of-type(5) div img{
+    margin-left: 30%;
+    height: 30vh;
+    width: 30vw;
+}
+section:nth-of-type(5) div p{
+    text-align: center;
+    margin-left: 30%;
+    height: 35vh;
+    width: 20vw;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
