@@ -185,4 +185,23 @@ section:nth-of-type(5) div p{
     top: 75%;
     left: 15%;
 }
+footer{
+    border-top: 1px solid #333;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+}
+footer a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #333;
+    position: absolute;
+    /* left: 50%; */
+    top: 50%;
+}
+footer p{
+    position: absolute;
+    left: 50%;
+    bottom: -40%;
+}
 
